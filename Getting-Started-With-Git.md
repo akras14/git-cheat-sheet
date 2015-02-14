@@ -24,10 +24,8 @@ git config --global diff.tool meld
 ```
 git branch
 git checkout branchname
-git chekcout -b
-git branch
-git chekcout branchname
-git merge branchname
+git chekcout -b new-branch-name # Checkout current branch into a new branch, named new-branch-name
+git merge branchname # Merge branch-name into the current branch
 git branch -d branchname
 git branch -D branchname
 ```
