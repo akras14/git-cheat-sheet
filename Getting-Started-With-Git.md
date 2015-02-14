@@ -83,14 +83,25 @@ git commit --amend
 
 **Advanced**
 ```bash
+# Unstage pending changes, the changes will still remain on file system
 git reset
-git reset
+
+# Unstage pending changes, and reset files to pre-commit state. If 
 git reset --hard HEAD
+
+# Go back to some time in history, on the current branch
 git reset tag
+git reset <commit-hash>
+
+# Save current changes, without having to commit them to repo
 git stash
-git stash
+
+# And lated return those changes
 git stash pop
-git checkout filename #Goes back to the way it was
+
+# Return file to it's previous version, if it haven't been stage yet.
+# Otherwise use git reset filename or git reset --hard filename
+git checkout filename 
 ```
 
 ```
