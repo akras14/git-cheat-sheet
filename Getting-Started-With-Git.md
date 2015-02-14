@@ -106,11 +106,20 @@ git checkout filename
 
 **Comparing changes**
 ``` bash
+# See current changes, that have not been stage yet. 
+# Good thing to check before running git add
 git diff
+
+# See current changes, that have not been commited yet (including staged changes)
 git diff HEAD
-git diff branch name
+
+# Compare current branch to some other branch
+git diff branch-name
+
+# Same as diff, but opens changes via difftool that you have configured
+# -d tells it to open it in a directory mode, instead of having to open
+# each file one at a time.
 git difftool -d
-git tag
 ```
 
 ### Working with Remote Branch
