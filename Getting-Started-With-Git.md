@@ -54,7 +54,7 @@ git commit --amend
 ```
 
 Advanced
-```
+```bash
 git reset
 git reset
 git reset --hard HEAD
