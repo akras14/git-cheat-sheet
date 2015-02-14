@@ -48,10 +48,12 @@ git branch -D branchname
 # See all commits
 git log
 
-# Pretty commit view, you can customize it as much as you want. Just google it.
+# Pretty commit view, you can customize it as much as you want. 
+# Just google it :)
 git log --pretty=format:"%h %s" --graph
 
-# See status of your current git branch. Often will have advice on command that you need to run
+# See status of your current git branch. 
+# Often will have advice on command that you need to run
 git status
 
 # Short view of status. Helpful for seeing things at a glance
@@ -69,15 +71,18 @@ git add '*.txt'
 # Tell git not to track file anymore
 git rm filename
 
-# Record changes to git. Default editor will open for a commit message. (Visible via git log)
+# Record changes to git. Default editor will open for a commit message.
+# (Visible via git log)
 # Once files are commited, they are history.
 git commit 
 
 # A short hand for commiting files and writing a commit message via one command
 git commit -m 'Some commit message'
 
-# Changing the history :) If you want to change your previous commit, you can, if you haven't pushed it yet to a remote repo
-# Simply make new changes, add them via git add, and run the following command. Past commit will be ammended.
+# Changing the history :) If you want to change your previous commit, 
+# you can, if you haven't pushed it yet to a remote repo
+# Simply make new changes, add them via git add, and run the following command. 
+# Past commit will be ammended.
 git commit --amend
 ```
 
@@ -124,7 +129,8 @@ git difftool -d
 
 ### Working with Remote Branch
 ```bash
-# See list of remote repos available. If you did git clone, you'll have at least one named "origin"
+# See list of remote repos available. If you did git clone, 
+# you'll have at least one named "origin"
 git remote
 
 # Detailed view of remote repos, with their git urls
@@ -133,7 +139,8 @@ git remote -v
 # Add a new remote. I.e. origin if it is not set
 git remote add origin <https://some-git-remote-url>
 
-# Push current branch to remote branch (usually with the same name) called upstream branch
+# Push current branch to remote branch (usually with the same name) 
+# called upstream branch
 git push
 
 # If a remote branch is not set up as an upstream, you can make it so
@@ -143,7 +150,8 @@ git push -u origin master
 # Otherwise you can manually specify remote and branch to use every time
 git push origin branchname
 
-# Just like pushing, you can get the latest updates from remote. By defaul Git will try to pull from "origin" and upstream branch
+# Just like pushing, you can get the latest updates from remote. 
+# By defaul Git will try to pull from "origin" and upstream branch
 git pull
 
 # Or you can tell git to pull a specific branch
