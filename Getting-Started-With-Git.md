@@ -163,8 +163,8 @@ git branch -a
 ```
 ##	Resources
 ### Reference
-Try Github
-lernGitBranching http://pcottle.github.io/learnGitBranching/?NODEMO
+- Try Github - https://try.github.io
+- lernGitBranching http://pcottle.github.io/learnGitBranching/?NODEMO
 Pro Git http://git-scm.com/book
 ### Viewing History
 Source Tree
