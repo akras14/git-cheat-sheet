@@ -21,14 +21,26 @@ git config --global diff.tool meld
 ```
 ### Working with Local Branch
 #### Branching
-```
+```bash
+# See the list of all local branches
 git branch
+
+# Switch to existing local branch
 git checkout branchname
-git chekcout -b new-branch-name # Checkout current branch into a new branch, named new-branch-name
-git merge branchname # Merge branch-name into the current branch
+
+# Checkout current branch into a new branch, named new-branch-name
+git chekcout -b new-branch-name
+
+# Merge branch-name into the current branch
+git merge branchname 
+
+# Soft branch delete, will complain if the branch is not merged
 git branch -d branchname
+
+# Hard branch delete, will not complain about nothing. Like rm -rf in bash
 git branch -D branchname
 ```
+
 Updating Current Branch
 
 Standard Flow
