@@ -45,15 +45,25 @@ git branch -D branchname
 
 **Standard Flow**
 ```
+# See all commits
 git log
-git log
+
+# Pretty commit view, you can customize it as much as you want. Just google it.
 git log --pretty=format:"%h %s" --graph
+
+# See status of your current git branch. Often will have advice on command that you need to run
 git status
-git status
+
+# Short view of status. Helpful for seeing things at a glance
 git status -s
-git add
+
+# Add modified file to be commited
 git add filename
+
+# Add all modifeid files to be commited
 git add .
+
+# Add only text files, etc.
 git add '*.txt'
 git rm
 git rm filename
@@ -63,7 +73,7 @@ git commit -m
 git commit --amend
 ```
 
-Advanced
+**Advanced**
 ```bash
 git reset
 git reset
