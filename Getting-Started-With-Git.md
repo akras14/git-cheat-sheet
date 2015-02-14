@@ -113,17 +113,44 @@ git tag
 ```
 
 ### Working with Remote Branch
-git push
-git push
-git push -u origin master #The -u tells Git to remember the parameters
-git push origin branchname
-git pull origin branchname
+```bash
+# See list of remote repos available. If you did git clone, you'll have at least one named "origin"
 git remote
+
+# Detailed view of remote repos, with their git urls
 git remote -v
-git remote add origin https://gitremote
-git fetch
-git fetch
+
+# Add a new remote. I.e. origin if it is not set
+git remote add origin <https://some-git-remote-url>
+
+# Push current branch to remote branch (usually with the same name) called upstream branch
+git push
+
+# If a remote branch is not set up as an upstream, you can make it so
+# The -u tells Git to remember the parameters
+git push -u origin master 
+
+# Otherwise you can manually specify remote and branch to use every time
+git push origin branchname
+
+# Just like pushing, you can get the latest updates from remote. By defaul Git will try to pull from "origin" and upstream branch
+git pull
+
+# Or you can tell git to pull a specific branch
+git pull origin branchname
+
+# Git pull, is actually a short hand for two command.
+# Telling git to first fetch changes from a remote branch
+# And then to merge them into current branch
+git fetch && git merge origin/remote-branch-name
+
+# If you want to update history of remote branches, you can fetch and purge
 git fetch -p
+
+# To see the list of remote branches
+# -a stands for all
+git branch -a 
+```
 ##	Resources
 ### Reference
 Try Github
