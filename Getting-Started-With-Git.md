@@ -41,9 +41,9 @@ git branch -d branchname
 git branch -D branchname
 ```
 
-Updating Current Branch
+#### Updating Current Branch
 
-Standard Flow
+**Standard Flow**
 ```
 git log
 git log
