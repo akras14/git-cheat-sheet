@@ -1,7 +1,7 @@
 #Getting Started with Git
-##Core Concepts
-### Commands
-#### Getting Started
+
+## Commands
+### Getting Started
 
 `git init`
 
@@ -9,7 +9,7 @@ or
 
 `git clone url`
 
-#### Configuration
+### Configuration
 
 ```
 git config --global color.ui true
@@ -19,8 +19,8 @@ git config --global user.name "John Doe"
 git config --global user.email foo@citrix.com
 git config --global diff.tool meld
 ```
-#### Working with Local Branch
-Branching
+### Working with Local Branch
+#### Branching
 ```
 git branch
 git checkout branchname
@@ -73,7 +73,7 @@ git difftool -d
 git tag
 ```
 
-#### Working with Remote
+### Working with Remote Branch
 git push
 git push
 git push -u origin master #The -u tells Git to remember the parameters
@@ -85,19 +85,19 @@ git remote add origin https://gitremote
 git fetch
 git fetch
 git fetch -p
-###	Resources
-#### Reference
+##	Resources
+### Reference
 Try Github
 lernGitBranching http://pcottle.github.io/learnGitBranching/?NODEMO
 Pro Git http://git-scm.com/book
-#### Viewing History
+### Viewing History
 Source Tree
 Command Line Setup
 https://answers.atlassian.com/questions/151279/sourcetree-command-line-option
 tig
 brew install tig
 gitk
-#### Merge/Diff Tools
+### Merge/Diff Tools
 Meld - `brew install meld`
 Open Diff
 p4v Merge - http://git-scm.com/book/en/Customizing-Git-Git-Configuration#External-Merge-and-Diff-Tools
