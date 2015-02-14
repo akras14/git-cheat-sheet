@@ -4,6 +4,9 @@
 #### Getting Started
 
 `git init`
+
+or 
+
 `git clone url`
 
 Configuration
