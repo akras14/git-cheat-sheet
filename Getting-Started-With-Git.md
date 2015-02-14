@@ -44,7 +44,7 @@ git branch -D branchname
 #### Updating Current Branch
 
 **Standard Flow**
-```
+```bash
 # See all commits
 git log
 
@@ -57,19 +57,27 @@ git status
 # Short view of status. Helpful for seeing things at a glance
 git status -s
 
-# Add modified file to be commited
+# Add modified file to be commited(aka stage the file)
 git add filename
 
-# Add all modifeid files to be commited
+# Add all modifeid files to be commited(aka stage all files)
 git add .
 
 # Add only text files, etc.
 git add '*.txt'
-git rm
+
+# Tell git not to track file anymore
 git rm filename
-git commit
-git commit
-git commit -m
+
+# Record changes to git. Default editor will open for a commit message. (Visible via git log)
+# Once files are commited, they are history.
+git commit 
+
+# A short hand for commiting files and writing a commit message via one command
+git commit -m 'Some commit message'
+
+# Changing the history :) If you want to change your previous commit, you can, if you haven't pushed it yet to a remote repo
+# Simply make new changes, add them via git add, and run the following command. Past commit will be ammended.
 git commit --amend
 ```
 
