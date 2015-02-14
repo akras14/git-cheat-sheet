@@ -165,16 +165,15 @@ git branch -a
 ### Reference
 - Try Github - https://try.github.io
 - lernGitBranching http://pcottle.github.io/learnGitBranching/?NODEMO
-Pro Git http://git-scm.com/book
+- Pro Git - Free Book - http://git-scm.com/book
+
 ### Viewing History
-Source Tree
-Command Line Setup
-https://answers.atlassian.com/questions/151279/sourcetree-command-line-option
-tig
-brew install tig
-gitk
+- Source Tree - http://www.sourcetreeapp.com/
+- tig - `sudo apt-get install tig` or `brew install tig` etc
+- gitk - `sudo apt-get install gitk`
+
 ### Merge/Diff Tools
-Meld - `brew install meld`
-Open Diff
-p4v Merge - http://git-scm.com/book/en/Customizing-Git-Git-Configuration#External-Merge-and-Diff-Tools
-InteliJ
+- Meld - `sudo apt-get install meld` or `brew install meld`
+- Open Diff
+- p4v Merge - http://git-scm.com/book/en/Customizing-Git-Git-Configuration#External-Merge-and-Diff-Tools
+- Webstorm
