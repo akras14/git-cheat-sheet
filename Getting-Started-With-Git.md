@@ -104,7 +104,8 @@ git stash pop
 git checkout filename 
 ```
 
-```
+**Comparing changes**
+``` bash
 git diff
 git diff HEAD
 git diff branch name
