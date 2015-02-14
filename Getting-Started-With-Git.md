@@ -1,4 +1,4 @@
-#Git
+#Getting Started with Git
 ##Core Concepts
 ### Commands
 #### Getting Started
@@ -9,7 +9,7 @@ or
 
 `git clone url`
 
-Configuration
+#### Configuration
 
 ```
 git config --global color.ui true
@@ -64,11 +64,14 @@ git stash
 git stash pop
 git checkout filename #Goes back to the way it was
 ```
+
+```
 git diff
 git diff HEAD
 git diff branch name
 git difftool -d
 git tag
+```
 
 #### Working with Remote
 git push
