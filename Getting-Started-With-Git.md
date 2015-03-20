@@ -125,6 +125,11 @@ git diff branch-name
 # -d tells it to open it in a directory mode, instead of having to open
 # each file one at a time.
 git difftool -d
+
+# See only changes made in current branch
+git merge-base master <some-branch>
+# ^ this command will return a common <common-sha>
+git difftool -d <common-sha>
 ```
 
 ### Working with Remote Branch
