@@ -126,7 +126,7 @@ git diff branch-name
 # each file one at a time.
 git difftool -d
 
-# See only changes made in current branch
+# See only changes made in the current branch
 git difftool -d `git merge-base master HEAD`
 ```
 
