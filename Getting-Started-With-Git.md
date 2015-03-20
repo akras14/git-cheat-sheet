@@ -127,9 +127,7 @@ git diff branch-name
 git difftool -d
 
 # See only changes made in current branch
-git merge-base master <some-branch>
-# ^ this command will return a common <common-sha>
-git difftool -d <common-sha>
+git difftool -d `git merge-base master HEAD`
 ```
 
 ### Working with Remote Branch
