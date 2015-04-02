@@ -1,4 +1,4 @@
-#Getting Started with Git
+# Git CheatSheet
 
 ## Commands
 ### Getting Started
