@@ -127,7 +127,11 @@ git diff branch-name
 git difftool -d
 
 # See only changes made in the current branch (compared to master branch)
+# Helpful when working on a stand alone branch for a while
 git difftool -d master..
+
+# See only the file names that has changed in current branch
+git diff --no-commit-id --name-only --no-merges origin/master...
 ```
 
 ### Working with Remote Branch
