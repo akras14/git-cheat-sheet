@@ -1,4 +1,4 @@
-# Git CheatSheet
+# Git Cheat Sheet
 
 Visit [my blog](http://www.alexkras.com/), or [follow me one Twitter](https://twitter.com/akras14)
 
