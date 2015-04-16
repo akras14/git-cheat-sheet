@@ -132,6 +132,9 @@ git difftool -d master..
 
 # See only the file names that has changed in current branch
 git diff --no-commit-id --name-only --no-merges origin/master...
+
+# Similar to above, but see statistics on what files have changed and how
+git diff --stat #Your diff condition
 ```
 
 ### Working with Remote Branch
