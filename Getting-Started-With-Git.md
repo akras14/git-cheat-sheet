@@ -52,6 +52,9 @@ git log
 # Just google it :)
 git log --pretty=format:"%h %s" --graph
 
+# See what you worked on in the past week
+git log --author='Alex' --after={1.week.ago} --pretty=oneline --abbrev-commit
+
 # See status of your current git branch. 
 # Often will have advice on command that you need to run
 git status
