@@ -1,5 +1,7 @@
 # Git CheatSheet
 
+Visit [my blog](http://www.alexkras.com/), or [follow me one Twitter](https://twitter.com/akras14)
+
 ## Commands
 ### Getting Started
 
