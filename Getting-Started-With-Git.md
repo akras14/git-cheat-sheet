@@ -35,7 +35,7 @@ git chekcout -b new-branch-name
 git merge branchname
 
 # Merga branch without fast forwarding. This is what pull requests do.
-# it helps to preserve history of the changes as relavant to that branch
+# It helps to preserve history of the changes as relavant to that branch
 # It's an advance feature, but try it out with GUI to see the difference
 # between the regular merge and merge --no-ff
 git merge --no--ff branchname
