@@ -31,7 +31,7 @@ git branch
 git checkout branchname
 
 # Checkout current branch into a new branch, named new-branch-name
-git chekcout -b new-branch-name
+git checkout -b new-branch-name
 
 # Merge branch-name into the current branch
 git merge branchname
