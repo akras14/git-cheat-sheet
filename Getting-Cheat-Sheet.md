@@ -63,6 +63,9 @@ git log --pretty=format:"%h %s" --graph
 # See what you worked on in the past week
 git log --author='Alex' --after={1.week.ago} --pretty=oneline --abbrev-commit
 
+# See only changes made on this branch (assuming it was branched form master branch)
+git log --no-merges master..
+
 # See status of your current git branch. 
 # Often will have advice on command that you need to run
 git status
