@@ -36,7 +36,7 @@ git checkout -b new-branch-name
 # Merge branch-name into the current branch
 git merge branchname
 
-# Merga branch without fast forwarding. This is what pull requests do.
+# Merge branch without fast forwarding. This is what pull requests do.
 # It helps to preserve history of the changes as relavant to that branch
 # It's an advance feature, but try it out with GUI to see the difference
 # between the regular merge and merge --no-ff
@@ -76,7 +76,7 @@ git status -s
 # Add modified file to be commited(aka stage the file)
 git add filename
 
-# Add all modifeid files to be commited(aka stage all files)
+# Add all modified files to be commited(aka stage all files)
 git add .
 
 # Add only text files, etc.
@@ -115,17 +115,17 @@ git reset <commit-hash>
 # Save current changes, without having to commit them to repo
 git stash
 
-# And lated return those changes
+# And later return those changes
 git stash pop
 
-# Return file to it's previous version, if it haven't been stage yet.
+# Return file to it's previous version, if it hasn’t been staged yet.
 # Otherwise use git reset filename or git reset --hard filename
 git checkout filename 
 ```
 
 **Comparing changes**
 ``` bash
-# See current changes, that have not been stage yet. 
+# See current changes, that have not been staged yet. 
 # Good thing to check before running git add
 git diff
 
