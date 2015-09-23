@@ -1,6 +1,6 @@
 # Git Cheat Sheet
 
-Visit [my blog](http://www.alexkras.com/) or [connect with me one Twitter](https://twitter.com/akras14)
+Visit [my blog](http://www.alexkras.com/) or [connect with me on Twitter](https://twitter.com/akras14)
 
 ## Commands
 ### Getting Started
@@ -38,7 +38,7 @@ git merge branchname
 
 # Merge branch without fast forwarding. This is what pull requests do.
 # It helps to preserve history of the changes as relavant to that branch
-# It's an advance feature, but try it out with GUI to see the difference
+# It's an advanced feature, but try it out with GUI to see the difference
 # between the regular merge and merge --no-ff
 git merge --no--ff branchname
 
