@@ -40,7 +40,7 @@ git merge branchname
 # It helps to preserve history of the changes as relavant to that branch
 # It's an advanced feature, but try it out with GUI to see the difference
 # between the regular merge and merge --no-ff
-git merge --no--ff branchname
+git merge --no-ff branchname
 
 # Soft branch delete, will complain if the branch is not merged
 git branch -d branchname
