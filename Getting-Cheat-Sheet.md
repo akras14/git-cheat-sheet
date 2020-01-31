@@ -196,7 +196,7 @@ git branch -a
 ##	Resources
 ### Reference
 - Try Github - https://try.github.io
-- lernGitBranching http://pcottle.github.io/learnGitBranching/?NODEMO
+- learnGitBranching http://pcottle.github.io/learnGitBranching/?NODEMO
 - Pro Git - Free Book - http://git-scm.com/book
 
 ### Viewing History
